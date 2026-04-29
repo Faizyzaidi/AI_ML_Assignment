@@ -1,5 +1,5 @@
 # MS 22 — Theory Assignment 1  
-## Multi-Output Time-Series Forecasting using LSTM & GRU
+## Multi-Output Time-Series Forecasting using LSTM
 
 ### Department of Computer Science, Faculty of Sciences  
 ### Jamia Millia Islamia
@@ -10,11 +10,12 @@
 
 | Detail | Information |
 |---|---|
-| Roll No | 26 |mohd faizy
+| Roll No | 26 |
+| Name | Mohd Faizy |
 | Dataset | IOC.csv (Indian Oil Corporation) |
 | Source | NIFTY-50 Stock Market Data (2000–2021), Kaggle |
 | Task | Multi-Output Time-Series Forecasting |
-| Framework | PyTorch (LSTM & GRU) |
+| Framework | PyTorch (LSTM) |
 
 ---
 
@@ -42,12 +43,9 @@ The dataset contains stock market information for Indian Oil Corporation collect
 
 ## 🎯 Objective
 
-The objective of this assignment is to perform **multi-output time-series forecasting** using deep learning models:
+The objective of this assignment is to perform **multi-output time-series forecasting** using the LSTM deep learning model.
 
-- LSTM (Long Short-Term Memory)
-- GRU (Gated Recurrent Unit)
-
-The models are trained to learn temporal dependencies in stock market data and predict multiple output features simultaneously.
+The model is trained to learn temporal dependencies in stock market data and predict multiple output features simultaneously.
 
 ---
 
